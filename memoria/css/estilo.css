@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    background-color: lightgrey;
+    color: red;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header h1{
+    font-size: 36pt;
+}
+
+header div{
+    font-size: 20pt;
+}       
+
+#pontos{
+    margin-top: 50px;
+    border-top: red solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#jogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.linha{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.item{
+    height: 20vw;
+    width: 20vw;
+    max-height: 200px;
+    max-width: 200px;
+    border: 5px dotted black;
+    background-image: url("../imgs/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item:hover{
+    border: 5px solid black;
+}
