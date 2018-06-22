@@ -52,5 +52,14 @@ header h1 {
     font-family: sans-serif;
     font-size: 50px;
     color: black;
-    position: null;
+}
+
+.letrascertas2 {
+    border-bottom: 4px solid black;
+    margin: auto;
+    width: 50px;
+    height: 100px;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: black;
 }
