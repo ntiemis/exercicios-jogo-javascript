@@ -1,4 +1,6 @@
+
 function obterPalavra (){
+
     let texto = new Array ();
     texto[0] = ["M","A","S","T","E","R","T","E","C","H"];
     texto[1] = ["F","A","C","E","B","O","O","K","",""];
@@ -23,6 +25,14 @@ function obterPalavra (){
     document.querySelector("#casaNove").innerHTML = (texto[i][8]);
     document.querySelector("#casaDez").innerHTML = (texto[i][9]);
 
+    if(letra=(texto[i][0]){
+        document.querySelector("#casaUm").classList.add("letrasCertas");
+    } else {
+        document.querySelector("#letrasescolhidas").innerHTML = (texto[i][0])
+    }
+
 }
+
+let letra = prompt ("Digite uma letra");
 
 onClick=obterPalavra();
